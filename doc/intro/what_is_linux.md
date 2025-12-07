@@ -1,5 +1,6 @@
 [⌂ Home](../../README.md)
-[▼ Next: What is operating system?](what_is_operating_system.md)
+[▲ Previous: What is operating system?](what_is_operating_system.md)
+[▼ Next: What is system shell?](../shell/what_is_system_shell.md)
 
 # What is Linux?
 
@@ -39,4 +40,5 @@
 
 [▵ Up](#what-is-linux)
 [⌂ Home](../../README.md)
-[▼ Next: What is operating system?](what_is_operating_system.md)
+[▲ Previous: What is operating system?](what_is_operating_system.md)
+[▼ Next: What is system shell?](../shell/what_is_system_shell.md)

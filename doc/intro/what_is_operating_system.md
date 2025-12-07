@@ -1,5 +1,5 @@
 [⌂ Home](../../README.md)
-[▲ Previous: What is Linux?](what_is_linux.md)
+[▼ Next: What is Linux?](what_is_linux.md)
 
 # What is operating system?
 
@@ -28,4 +28,4 @@ other input/output devices. All in all, a complex system.oo If every application
 
 [▵ Up](#what-is-operating-system)
 [⌂ Home](../../README.md)
-[▲ Previous: What is Linux?](what_is_linux.md)
+[▼ Next: What is Linux?](what_is_linux.md)
