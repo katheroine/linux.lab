@@ -1,6 +1,7 @@
 [⌂ Home](../../README.md)
+[▼ Next: What is operating system?](what_is_operating_system.md)
 
-# What is Linux
+# What is Linux?
 
 > **Linux** (`/ˈlɪnʊks/` *LIN-uuks*) is a family of open source *Unix*-like *operating systems* based on the *Linux kernel*, an operating system *kernel* first released on September 17, 1991, by *Linus Torvalds*.
 > *Linux* is typically packaged as a *Linux distribution* (*distro*), which includes the *kernel* and supporting system software and libraries-most of which are provided by third parties-to create a complete operating system, designed as a clone of *Unix* and released under the *copyleft* GPL license.
@@ -31,7 +32,11 @@
 > * Releasing early and often
 > * Inclusive meritocracy
 > * Community
-> 
+>
 > The open source development model also means that improvements come from many different corporate and individual contributors, so the product direction is determined largely by the community of users, rather than by a single development team at a single vendor.
 
 -- [Oracle Site](https://www.oracle.com/ca-en/linux/what-is-linux/)
+
+[▵ Up](#what-is-linux)
+[⌂ Home](../../README.md)
+[▼ Next: What is operating system?](what_is_operating_system.md)
