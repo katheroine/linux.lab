@@ -12,11 +12,11 @@ The `touch` command updates the access and modification times of each file speci
 
 -- [IBM Documetation](https://www.ibm.com/docs/en/aix/7.3.0?topic=t-touch-command)
 
-Update the access and modification times of each FILE to the current time.
+Update the access and modification times of each `FILE` to the current time.
 
-A FILE argument that does not exist is created empty, unless -c or -h is supplied.
+A `FILE` argument that does not exist is created empty, unless `-c` or `-h` is supplied.
 
-A FILE argument string of - is handled specially and causes touch to change the times of the file associated with standard output.
+A `FILE` argument string of - is handled specially and causes touch to change the times of the file associated with standard output.
 
 Mandatory arguments to long options are mandatory for short options too.
 
