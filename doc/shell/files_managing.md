@@ -20,4 +20,17 @@ A `FILE` argument string of - is handled specially and causes touch to change th
 
 Mandatory arguments to long options are mandatory for short options too.
 
--- [Linux Man Pages](https://linux.die.net/man/1/touch) 
+-- [Linux Man Pages](https://linux.die.net/man/1/touch)
+
+```console
+$ ls
+$ touch some_file
+$ ls
+some_file
+$ cat some_file
+$ echo 'Hello, world!' > other_file
+$ ls
+other_file  some_file
+$ cat other_file
+Hello, world!
+```
