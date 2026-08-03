@@ -31,3 +31,16 @@ another_file  other_file  some_file
 $ cat another_file
 Hi, there!
 ```
+
+**`cat`**
+
+```console
+$ cat > yet_another_file
+Roses are red and cornflower is blue,
+I like Linux and hope that you too.
+$ ls
+another_file  other_file  some_file  yet_another_file
+$ cat yet_another_file
+Roses are red and cornflower is blue,
+I like Linux and hope that you too.
+```
