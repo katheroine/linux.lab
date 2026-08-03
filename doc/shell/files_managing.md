@@ -21,3 +21,14 @@ other_file  some_file
 $ cat other_file
 Hello, world!
 ```
+
+**`printf`**
+
+```console
+$ printf 'Hi,there!' > another_file
+$ ls
+another_file  other_file  some_file
+$ cat another_file
+Hi,there!$
+```
+
