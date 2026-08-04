@@ -1,4 +1,4 @@
-# Files managing
+5# Files managing
 
 ## Creating files
 
@@ -43,4 +43,14 @@ another_file  other_file  some_file  yet_another_file
 $ cat yet_another_file
 Roses are red and cornflower is blue,
 I like Linux and hope that you too.
+```
+
+**`>`** - output redirection
+
+```console
+$ > further_file
+$ ls
+another_file  other_file_again  yet_another_file
+further_file  some_file
+$ cat further_file
 ```
