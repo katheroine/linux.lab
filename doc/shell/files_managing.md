@@ -54,3 +54,31 @@ another_file  other_file_again  yet_another_file
 further_file  some_file
 $ cat further_file
 ```
+
+## Reading files
+
+**`cat`**
+
+```console
+$ cat some_content
+Videmus nunc per speculum
+et in aeingmate.
+
+```
+
+**`more`**
+
+```console
+$ more some_content
+Videmus nunc per speculum
+et in aeingmate.
+
+```
+
+**`less`**
+
+
+```console
+$ less some_content
+
+```
