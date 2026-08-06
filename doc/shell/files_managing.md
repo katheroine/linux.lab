@@ -68,11 +68,11 @@ et in aeingmate.
 
 ```console
 $ cat content_1
-tat rosa pristina nomine.
+Stat rosa pristina nomine.
 $ cat content_2
 Nomina nuda tenemus.
 $ cat content_1 content_2
-tat rosa pristina nomine.
+Stat rosa pristina nomine.
 Nomina nuda tenemus.
 ```
 
@@ -90,7 +90,7 @@ $ more content_1 content_2
 ::::::::::::::
 content_1
 ::::::::::::::
-tat rosa pristina nomine.
+Stat rosa pristina nomine.
 ::::::::::::::
 content_2
 ::::::::::::::
