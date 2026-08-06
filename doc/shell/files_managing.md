@@ -66,6 +66,16 @@ et in aeingmate.
 
 ```
 
+```console
+$ cat content_1
+tat rosa pristina nomine.
+$ cat content_2
+Nomina nuda tenemus.
+$ cat content_1 content_2
+tat rosa pristina nomine.
+Nomina nuda tenemus.
+```
+
 **`more`**
 
 ```console
