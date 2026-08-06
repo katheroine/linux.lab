@@ -1,4 +1,4 @@
-5# Files managing
+I5# Files managing
 
 ## Creating files
 
@@ -83,6 +83,18 @@ $ more some_content
 Videmus nunc per speculum
 et in aeingmate.
 
+```
+
+```console
+$ more content_1 content_2
+::::::::::::::
+content_1
+::::::::::::::
+tat rosa pristina nomine.
+::::::::::::::
+content_2
+::::::::::::::
+Nomina nuda tenemus.
 ```
 
 **`less`**
