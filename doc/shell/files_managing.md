@@ -1,4 +1,4 @@
-I5# Files managing
+# Files managing
 
 ## Creating files
 
@@ -86,6 +86,10 @@ et in aeingmate.
 ```
 
 ```console
+$ more content_1
+Stat rosa pristina nomine.
+$ more content_2
+Nomina nuda tenemus.
 $ more content_1 content_2
 ::::::::::::::
 content_1
