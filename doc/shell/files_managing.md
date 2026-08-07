@@ -1,4 +1,4 @@
-# Files managing
+8# Files managing
 
 ## Creating files
 
@@ -107,4 +107,19 @@ Nomina nuda tenemus.
 ```console
 $ less some_content
 
+```
+
+## Updating files
+
+**`cat`**
+
+```console
+$ cat some_text
+Omnis mundi creatura
+quasi liber et pictura
+$ echo 'nobis est in speculum.' >> some_text
+$ cat some_text
+Omnis mundi creatura
+quasi liber et pictura
+nobis est in speculum.
 ```
