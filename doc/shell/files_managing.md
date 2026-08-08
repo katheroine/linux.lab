@@ -1,4 +1,4 @@
-8# Files managing
+# Files managing
 
 ## Creating files
 
@@ -122,4 +122,29 @@ $ cat some_text
 Omnis mundi creatura
 quasi liber et pictura
 nobis est in speculum.
+```
+
+## Deleting files
+
+**`rm`**
+
+```console
+$ ls
+$ touch file1 file2 file3 file4 file5
+$ ls
+file1  file2  file3  file4  file5
+$ rm file2
+$ ls
+file1  file3  file4  file5
+$ rm file3 file4
+$ ls
+file1  file5
+```
+
+**`find`**
+
+```console
+$ find file5 -delete
+$ ls
+file1
 ```
