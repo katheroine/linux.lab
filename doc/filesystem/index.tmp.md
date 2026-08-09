@@ -1,8 +1,10 @@
-# Shell
+# Filesystem
 
-## Files and directories
+## Files management
 
-### Files management
+### Files and directories
+
+#### Files management
 
 1. Creating files
 2. Reading files
@@ -12,7 +14,7 @@
 6. Moving files
 7. Listing files
 
-### Directories management
+#### Directories management
 
 1. Creating directories
 2. Reading directories content
