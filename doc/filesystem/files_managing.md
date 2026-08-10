@@ -159,3 +159,13 @@ $ mv some_file renamed_file
 $ ls
 renamed_file
 ```
+
+**`rename`**
+
+```console
+$ ls
+some_file
+$ rename some_file renamed_file some_file
+$ ls
+renamed_file
+```
