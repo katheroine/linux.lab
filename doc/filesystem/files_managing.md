@@ -103,7 +103,6 @@ Nomina nuda tenemus.
 
 **`less`**
 
-
 ```console
 $ less some_content
 
@@ -147,4 +146,16 @@ file1  file5
 $ find file5 -delete
 $ ls
 file1
+```
+
+## Renaming files
+
+**`mv`**
+
+```console
+$ ls
+some_file
+$ mv some_file renamed_file
+$ ls
+renamed_file
 ```
