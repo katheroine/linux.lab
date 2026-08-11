@@ -169,3 +169,31 @@ $ rename some_file renamed_file some_file
 $ ls
 renamed_file
 ```
+
+## Listing files
+
+**`ls`**
+
+```console
+$ ls
+another_file  file1  file2  other_file  some_file
+$ ls -l
+total 0
+-rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 another_file
+-rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 file1
+-rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 file2
+-rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 other_file
+-rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 some_file
+$ ls -a
+.   another_file  file2       some_file
+..  file1         other_file
+$ ls -al
+total 7
+drwx------ 2 u0_a79 u0_a79 3488 Aug 11 08:41 .
+drwx------ 5 u0_a79 u0_a79 3488 Aug 11 08:40 ..
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 another_file
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 file1
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 file2
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 other_file
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 some_file
+```
