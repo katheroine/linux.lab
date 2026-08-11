@@ -176,24 +176,32 @@ renamed_file
 
 ```console
 $ ls
-another_file  file1  file2  other_file  some_file
+another_file  file2       some_directory
+file1         other_file  some_file
+$ ls ./
+another_file  file2       some_directory
+file1         other_file  some_file
 $ ls -l
-total 0
--rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 another_file
--rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 file1
--rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 file2
--rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 other_file
--rw------- 1 u0_a79 u0_a79 0 Aug 11 08:41 some_file
+total 4
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 another_file
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 file1
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 file2
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 other_file
+drwx------ 2 u0_a79 u0_a79 3488 Aug 11 08:50 some_directory
+-rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 some_file
 $ ls -a
-.   another_file  file2       some_file
-..  file1         other_file
+.   another_file  file2       some_directory
+..  file1         other_file  some_file
 $ ls -al
-total 7
-drwx------ 2 u0_a79 u0_a79 3488 Aug 11 08:41 .
+total 11
+drwx------ 3 u0_a79 u0_a79 3488 Aug 11 08:49 .
 drwx------ 5 u0_a79 u0_a79 3488 Aug 11 08:40 ..
 -rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 another_file
 -rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 file1
 -rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 file2
 -rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 other_file
+drwx------ 2 u0_a79 u0_a79 3488 Aug 11 08:50 some_directory
 -rw------- 1 u0_a79 u0_a79    0 Aug 11 08:41 some_file
+$ ls some_directory
+file_1  file_2  file_3
 ```
