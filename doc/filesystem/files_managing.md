@@ -205,3 +205,41 @@ drwx------ 2 u0_a79 u0_a79 3488 Aug 11 08:50 some_directory
 $ ls some_directory
 file_1  file_2  file_3
 ```
+
+**`tree`**
+
+```console
+$ tree
+.
+├── another_file
+├── file1
+├── file2
+├── other_file
+├── some_directory
+│   ├── file_1
+│   ├── file_2
+│   └── file_3
+└── some_file
+
+2 directories, 8 files
+$ tree ./
+./
+├── another_file
+├── file1
+├── file2
+├── other_file
+├── some_directory
+│   ├── file_1
+│   ├── file_2
+│   └── file_3
+└── some_file
+
+2 directories, 8 files
+$ tree some_directory/
+some_directory/
+├── file_1
+├── file_2
+└── file_3
+
+1 directory, 3 files
+```
