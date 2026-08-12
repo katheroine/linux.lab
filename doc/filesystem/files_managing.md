@@ -243,3 +243,24 @@ some_directory/
 
 1 directory, 3 files
 ```
+
+# Directories managing
+
+## Creating directories
+
+**`mkdir`**
+
+```console
+$ ls
+$ mkdir some_directory
+$ ls
+some_directory
+$ mkdir other_directory another_directory
+$ ls
+another_directory  other_directory  some_directory
+$ ls -l
+total 11
+drwx------ 2 u0_a79 u0_a79 3488 Aug 12 08:40 another_directory
+drwx------ 2 u0_a79 u0_a79 3488 Aug 12 08:40 other_directory
+drwx------ 2 u0_a79 u0_a79 3488 Aug 12 08:38 some_directory
+```
