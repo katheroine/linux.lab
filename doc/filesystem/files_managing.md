@@ -264,3 +264,17 @@ drwx------ 2 u0_a79 u0_a79 3488 Aug 12 08:40 another_directory
 drwx------ 2 u0_a79 u0_a79 3488 Aug 12 08:40 other_directory
 drwx------ 2 u0_a79 u0_a79 3488 Aug 12 08:38 some_directory
 ```
+
+## Deleting directories
+
+**`rmdir`**
+
+```console
+$ ls
+another_directory  other_directory  some_directory
+$ rmdir some_directory
+$ ls
+another_directory  other_directory
+$ rmdir other_directory another_directory
+$ ls
+```
